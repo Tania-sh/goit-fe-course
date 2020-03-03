@@ -24,7 +24,7 @@ html {
     text-transform: uppercase; 
 }
 .top-navigation {
-    padding: 80px 0;
+    line-height: 93px;
 }
 a:hover, a:focus {
     color: #03a9f4;
@@ -96,4 +96,6 @@ a:hover, a:focus {
     background-color: #fff;
     transition: .4s ease;  
     font-family: serif;   
+*{
+    
 }
