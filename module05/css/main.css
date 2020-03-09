@@ -277,7 +277,7 @@ body {
     height: 27px;
     vertical-align: top;
     padding-right: 20px;
-    background-image: url("../img/icon-cart.png");
+    background-image: url("./img/icon-cart.png");
     background-repeat: no-repeat;
 }
 .add-to-cart:hover,
