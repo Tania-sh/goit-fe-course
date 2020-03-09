@@ -236,21 +236,21 @@ body {
     content: '';
     width: 26px;
     height: 25px;
-    background-image: url(../img/icon-like.png);
+    background-image: url(../img/icon1.png);
 }
 .arrows::before {
     display: inline-block;
     content: '';
     width: 26px;
     height: 25px;
-    background-image: url(../img/icon.png);
+    background-image: url(../img/icon4.png);
 }
 .clock::before {
     display: inline-block;
     content: '';
     width: 26px;
     height: 25px;
-    background-image: url(../img/icon-time.png);
+    background-image: url(../img/icon3.png);
 }
 .add-to-cart {
     height: 50px;
@@ -277,7 +277,7 @@ body {
     height: 27px;
     vertical-align: top;
     padding-right: 20px;
-    background-image: url("./img/icon-cart.png");
+    background-image: url("../img/icon2.png");
     background-repeat: no-repeat;
 }
 .add-to-cart:hover,
