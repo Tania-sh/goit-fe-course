@@ -14,7 +14,8 @@
 .site-title {
     background: #fefefe;
     height: 50px;
-    padding-top: 16px;    
+    padding-top: 16px; 
+    font-family: 'Montserrat', sans-serif; 
 }
 .site-logo {
     display: flex;
