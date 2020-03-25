@@ -1,0 +1,204 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0 auto;
+  font-family: var(--font-all-content), sans-serif;
+  font-size: 14px;
+  color: var(--color-content);
+  line-height: 1.2;
+  font-weight: 400;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+.button {
+  font-family: var(--font-title), sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.promo {
+  padding-bottom: 140px;
+  text-align: center;
+  background-image: linear-gradient(
+      0deg,
+      rgba(26, 25, 21, 0.255),
+      rgba(26, 25, 21, 0.255)
+    ),
+    url(../img/background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  min-height: 100px;
+}
+.navigation {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.buttons {
+  margin-bottom: 116px;
+}
+.button-log-in,
+.button-sign-up {
+  width: 90px;
+  height: 40px;
+}
+.button-log-in:hover,
+.button-log-in:focus,
+.button-sign-up:hover,
+.button-sign-up:focus {
+  border: 2px solid rgb(255, 255, 255);
+}
+.logo-link {
+  display: block;
+  font-family: var(--font-title), sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  animation: rotate-logo 2s linear;
+}
+.promo-title {
+  margin: 0 -5px;
+  margin-bottom: 16px;
+  padding: 0;
+  font-family: var(--font-title), sans-serif;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: down 2s linear;
+}
+.promo-descr {
+  margin: 0;
+  margin-bottom: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-family: var(--font-all-content), sans-serif;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+}
+.button-promo {
+  width: 280px;
+  height: 40px;
+  background-color: var(--color-style);
+  outline: none;
+  animation: up 2s linear;
+  transition: color 0.5s linear, background-color 0.5s linear,
+    border 0.5s linear, transform 0.5s linear;
+}
+.button-promo:hover,
+.button-promo:focus {
+  color: var(--color-style);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid var(--color-style);
+}
+.partners {
+  padding-top: 68px;
+  padding-bottom: 58px;
+  text-align: center;
+}
+.partners-title {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  font-size: 22px;
+  font-family: var(--font-title), sans-serif;
+  font-weight: 700;
+}
+.partners-card {
+  position: relative;
+}
+.partner-photo {
+  margin: 0 auto 20px;
+}
+.icon::after {
+  position: absolute;
+  top: 85px;
+  right: 0;
+  display: inline-block;
+  content: "";
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 50%;
+}
+.partners-icon-tv::after {
+  background-color: var(--color-style);
+  background-image: url("../img/partners/partners-icons/icon-tv.png");
+  background-position: 45% 45%;
+}
+.partners-icon-flask::after {
+  background-color: rgb(255, 165, 7);
+  background-image: url("../img/partners/partners-icons/icon-flask.png");
+  background-position: 50% 45%;
+}
+.partners-icon-coffe::after {
+  background-color: rgb(28, 215, 173);
+  background-image: url("../img/partners/partners-icons/icon-coffe.png");
+  background-position: 45% 40%;
+}
+.partners-icon-telegram::after {
+  background-color: rgb(78, 115, 219);
+  background-image: url("../img/partners/partners-icons/icon-telegram.png");
+  background-position: 38% 45%;
+}
+.partner-list-title {
+  margin: 0;
+  margin-bottom: 14px;
+  padding: 0;
+  font-family: var(--font-title), sans-serif;
+  color: var(--color-content);
+  font-weight: 700;
+}
+.partner-list-descr {
+  margin: 0;
+  padding: 0 20px;
+  color: rgb(102, 102, 102);
+  font-weight: 300;
+}
+.button-partner {
+  width: 284px;
+  height: 40px;
+  color: var(--color-style);
+  border: 2px solid var(--color-style);
+  transition: color 0.5s linear, background-color 0.5s linear,
+    border 0.5s linear, transform 0.5s linear;
+}
+.button-partner:hover,
+.button-partner:focus {
+  color: rgb(255, 255, 255);
+  background-color: var(--color-style);
+  border: none;
+}
+:root {
+  --font-all-content: "Roboto";
+  --font-title: "Montserrat";
+  --color-content: rgb(51, 51, 51);
+  --color-subcontent: rgb(102, 102, 102);
+  --color-style: rgb(255, 78, 80);
+}
